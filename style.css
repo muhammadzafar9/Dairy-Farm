@@ -1,0 +1,409 @@
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  /* backgorund-IMG   */
+ .masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://media.gettyimages.com/photos/cows-in-a-meadow-at-sunrise-picture-id155276272?s=2048x2048');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+  
+
+ 
+
+  /* welcome to our farm css */
+  h1{
+    font-family: 'Libre Baskerville', serif;
+    
+    
+  }
+  h5{
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  /* img-logo css */
+  .img-farm{
+    position:relative;
+    margin: -60px;
+    padding-bottom: 10%;
+    clear: both;
+    display: inline-block; 
+  } /* img-logo css */
+
+  /* </welcome to our farm> */
+
+  /* sticky-nav-bar fixed css */
+  /* .navbar{
+    position: fixed;
+    display: block;
+    
+    width: 100%;
+    z-index: 1;
+    background-color:#fec321;
+    overflow-block: auto;
+  }  */
+  /* </nav-bar fixed> */
+
+  .nav-link {
+    color: #372824 !important;
+    
+    font-family:  /* 'Racing Sans One', cursive; */"Lucida Console", Courier, monospace;
+    
+    
+  }
+
+  .dropdown-item{
+    color: #372824 !important;
+    font-family:"Lucida Console", Courier, monospace;;
+    
+    
+  }
+  /* icons-cart */
+  .fa-shopping-cart,.fa-user-circle-o {
+    font-size: 32px !important;
+    color:#fec321;     /* #181516; */
+    
+  }  /* </icon> */
+
+
+
+
+  .card{
+    background-color: #ffffff;
+    box-shadow: 7px 7px 7px darkgray;
+  }
+  .farm{
+    max-width: 800px;
+    
+    text-align: center;
+    padding-left: -10%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+  }
+
+  /* media query for logo circle iamge */
+  @media screen and (max-widht:280px)
+  {
+    .farm{
+      width: 100%;
+    }
+  }
+
+  /* footer-section css */
+
+  /* .footer{
+    width: 100%;
+    background-color: #181516 !important;
+    height: 60px;
+    
+  }
+
+  .footer>div{
+    text-align: center;
+    
+    padding-top: 20px;
+    
+  }
+  h4{
+    color: #eeede5;
+  } */
+
+  /* footer-end */
+
+ 
+
+
+  /* cards css */
+
+  .card-title:hover{
+    color:#d7a92c !important;
+    
+    
+  }
+  .card-title{
+    color: black;
+    
+  }
+  .btn-warning{
+    width: 100%;
+    
+    background-color:#fdc421;
+    opacity: 0.7s;
+  }
+  /* CARD CSS END */
+
+  /* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+/* grid-gallery */
+.portfolio-item{
+  width:100%;
+  clear: both;
+  display: flex;
+  padding-left: 30px;
+}
+.portfolio-item .item{
+/*width:303px;*/
+  /* float: right; */
+  /* padding-left: 50px; */
+  /* margin-bottom:20px; */
+  clear: both;
+  flex-wrap: wrap;
+}
+
+
+/* grid-galllery (our-gallery */
+
+
+
+
+
+  /*
+  *
+  * ==========================================
+  * CUSTOM UTIL CLASSES WRAPPER
+  * ==========================================
+  *
+  */
+
+  .page-holder {
+    min-height: 50vh;
+  }
+
+  .bg-cover {
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+  }
+
+  /* wRAPPER END  */
+
+  /* round-img card css */
+  h4{
+    color: #242021;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-shadow: 2px 2px 5px yellow; */
+    
+    
+  }
+  h4:hover{
+    color: #d7a92c;
+    
+  }
+  /* /round-card css */
+
+  /* out shoping css */
+  h1{
+    /* font-weight:  */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  p{
+    
+    font-family: 'Average Sans', sans-serif;
+    /* Georgia, 'Times New Roman', Times, serif; */
+    opacity: 0.7;
+  }
+  .container{
+    flex-wrap: wrap;
+    clear: both;
+  }
+  /* </round card css>  */
+
+  /*  [featured recipe css  */
+  .color-head{
+    color: #fdc221;
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* goto top button css */
+
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #d7a92b;
+    bottom: 40px;
+    right: 10px;
+    
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+
+
+
+
+  /* shoping-cart-css */
+
+  /* icon css */
+  .fa-cart-plus{
+    
+    font-size: 25px !important;
+    margin-right: 10px;
+  }
+  /* </icon>  */
+
+
+  
+/*MAIN FOOTER SECTION */
+
+footer {
+  background-color:  #181516;     /*  #231f20; */
+  /* background: -webkit-linear-gradient(59deg, #25272e, #16222A); */
+  /* background: linear-gradient(59deg, #25272e, rgb(46, 75, 94)); */
+  color:#316dd9;
+  /* margin-bottom:100px; */
+}
+
+footer a, .copy {
+  color:#ffffff; /* #316dd9; */
+  font-size: 16px;
+  transition-duration: 0.2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer a:hover , .copy:hover {
+  color: #fec321;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/* SOCİAL İCONS */
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0px auto;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #ffffff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.footer-section{
+  background-color: #181516;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #ffffff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #fec321;
+}
+
+
+
+
+
+
+
+
+
+
+
+
